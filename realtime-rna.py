@@ -85,13 +85,6 @@ def record():
   sf.close()
   return 'filename.wav'
 
-#Passa a função de gravação como parametro
-#sample_file = record()
-
-
-#Processamento do  audio
-#sample_ds = preprocess_dataset([str(sample_file)])
-#prediction = model.predict(sample_ds.batch(1))
 
 #Previsão
 def previ(variavel):
