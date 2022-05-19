@@ -63,7 +63,7 @@ def preprocess_dataset(files):
   return output_ds
 
 # Carrega Modelo RNA
-model = load_model('rna_TESTE13.h5')
+model = load_model('rna_TESTE6.h5')
 
 def record():
   stream.start_stream()
