@@ -1,7 +1,8 @@
 # RNA-sinais-sonoros-de-tansito
 # RNA PARA RECONHECIMENTO DE SINAIS SONOROS DO TRÂNSITO  
 
-## Descrição - A Rede faz parte do  TCC, DESENVOLVIMENTO DE UMA RNA PARA AUXILIAR  MOTORISTAS COM DEFICIÊNCIA AUDITIVA
+## Descrição 
+  - A Rede faz parte do  TCC, DESENVOLVIMENTO DE UMA RNA PARA AUXILIAR  MOTORISTAS COM DEFICIÊNCIA AUDITIVA
   - Foi desenvolvida por Matheus Cardoso Modesto, Roger Moraes Brito e por mim.
   - O dataset foi produzido pela equipe. Alguns dados foram coletados audios de repositório da Internet e outros produzido pelos membros. 
   - O conjunto de dados possuem os seguintes padrões: Apito, Buzina e Sirene 
