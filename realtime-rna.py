@@ -88,13 +88,13 @@ def record():
 
 #Previsão
 def previ(variavel):
-    if (prev[0] > 0.50) and (prev[0] > a[1]) and (prev[0] > a[2]):
-       print("BUZINA")
-    if (prev[1] > 0.50) and (prev[1] > a[0]) and (prev[1] > a[2]):
+    if (prev[0] > 0.50) and (prev[0] > prev[1]) and (prev[0] > prev[2]):
+        print("BUZINA")
+    if (prev[1] > 0.50) and (prev[1] > prev[0]) and (prev[1] > prev[2]):
         print("SIRENE")
-    if (prev[2] > 0.50) and (prev[2] > a[0]) and prev[2] > a[1]):
+    if (prev[2] > 0.50) and (prev[2] > prev[0]) and (prev[2] > prev[1]):
         print("APITO")
-  return
+    return
 
 x = 0
 while (x <= 1):
@@ -103,7 +103,7 @@ while (x <= 1):
     prediction = model.predict(sample_ds.batch(1))
     prev = tf.nn.softmax(prediction[0])
     previ(prev)
-
+    print(tf.nn.softmax(prediction[0]))
 
     x = 1
 
