@@ -1,4 +1,4 @@
-# RNA-sinais-sonoros-de-tansito
+# RNA-sinais-sonoros-de-transito
 # RNA PARA RECONHECIMENTO DE SINAIS SONOROS DO TRÂNSITO  
 
 ## Descrição 
